@@ -1,0 +1,32 @@
+@import "../shared_files/reset_default.css";
+@import "../shared_files/header.css";
+@import "../shared_files/footer.css";
+@import "../shared_files/forms.css";
+
+.form-section {
+    height: 300px;
+    text-align: center;
+    padding: 0 50px;
+    color: red;
+}
+
+.dark-button, .bright-button {
+    width: 100%;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .form-section {
+        height: 500px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,119 @@
+body {
+    background-image: url(images/home_bg.jpg);
+    background-size: cover;
+}
+
+.welcome_bar {
+    background-color:rgba(255, 255, 255, 0.678);
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px 2px rgba(71, 52, 35, 0.226);
+}
+
+.welcome_bar div:first-child{
+    display: flex;
+    align-items: center;
+}
+
+.user, .user-logged {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.user {
+    opacity: 0.4;
+}
+
+.admin {
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+    transition: 0.3s ease;
+}
+
+.admin:hover {
+    color:rgb(128, 128, 128);
+}
+
+.home-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.background {
+    background-color: rgba(223, 199, 174, 0.822);
+    border: 20px solid rgba(255, 255, 255, 0.767);
+    outline: 5px solid #473423;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(71,52,35,0.5); 
+    box-shadow: 0px 0px 10px 2px rgba(71,52,35,0.5);
+    border-spacing: 15px 10px;
+    height: 500px;
+    min-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+#logo {
+    width: 400px;
+}
+
+#home-buttons {
+    line-height: 60px;
+    
+}
+
+.home-buttons {
+    background-color: rgb(242, 230, 218);
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    width: 400px;
+    height: 50px;
+
+    transition: transform 0.3s ease;
+}
+
+.home-buttons:hover {
+    transform: scale(1.05);
+    background-color: rgb(71, 52, 35);
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .welcome_bar {
+        font-size: 14px;
+    }
+
+    .background {
+        min-width: 300px
+    }
+
+    #logo {
+        width: 200px;
+    }
+
+    .home-buttons {
+        font-size: 14px;
+        width: 200px;
+    }
+
+    .home-container {
+        height: 110vh;
+    }
+}

@@ -1,0 +1,60 @@
+@import "../shared_files/reset_default.css";
+@import "../shared_files/header.css";
+@import "../shared_files/footer.css";
+@import "../shared_files/forms.css";
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section {
+    width: 700px;
+    height: 1200px;
+}
+
+.form {
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 950px;
+}
+
+.phone_number {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.phone_number p {
+    margin: 21px 13px;
+    font-weight: bold;
+}
+
+.phone {
+    width: 300px;
+}
+
+@media screen and (max-width: 1024px) {
+    .form-section {
+        width: 1000px;
+        height: 1800px;
+    }
+
+    .titles {
+        margin-bottom: 300px;
+    }
+
+    .links {
+        margin-top: 300px;
+    }
+
+    .phone_number p {
+        font-size: 35px;
+        margin-top: 35px;
+    }
+    
+    .phone {
+        width: 510px;
+    }
+}

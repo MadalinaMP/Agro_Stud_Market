@@ -1,0 +1,24 @@
+@import "../shared_files/reset_default.css";
+@import "../shared_files/header.css";
+@import "../shared_files/footer.css";
+@import "../shared_files/forms.css";
+
+.form-section {
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.bright-button {
+    width: 100%;
+    font-size: 16px;
+}
+
+.edit-links {
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .bright-button {
+        font-size: 40px;
+    }
+}

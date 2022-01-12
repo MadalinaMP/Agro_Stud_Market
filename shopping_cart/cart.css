@@ -1,0 +1,62 @@
+@import "../shared_files/reset_default.css";
+@import "../shared_files/header.css";
+@import "../shared_files/footer.css";
+@import "../shared_files/forms.css";
+@import "../shared_files/owned_products.css";
+@import "../shared_files/background_image.css";
+
+.label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label h2 {
+    font-size: 30px;
+}
+
+.display_my_products_section {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+    border-bottom: rgb(212, 212, 212) 1px solid;
+    border-top: rgb(212, 212, 212) 1px solid;
+    background-color: rgba(223, 199, 174, 0.42);
+}
+
+td {
+    text-align: center;
+    border-bottom: rgb(212, 212, 212) 1px solid;
+}
+
+.total-row {
+    padding: 10px 0;
+    font-size: 18px;
+    background-color: rgba(248, 237, 227, 0.718);
+}
+
+.dark-button {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.delete {
+    height: 30px;
+}
+
+.empty, .delete {
+    transition: 0.3s ease;
+}
+
+.empty:hover,
+.delete:hover {
+    transform: scale(1.2);
+}

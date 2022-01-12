@@ -1,0 +1,15 @@
+@import "../shared_files/reset_default.css";
+@import "../shared_files/header.css";
+@import "../shared_files/footer.css";
+@import "../shared_files/products_display.css";
+
+@media screen and (max-width: 1024px) {
+    .product div:first-child {
+        font-size: 35px;
+    }
+    
+    .product div:nth-child(3) p {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}

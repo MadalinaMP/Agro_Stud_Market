@@ -1,0 +1,1 @@
+<h1> Acces restricționat. Trebuie să fie <a href="admin_log_in_page.php"> logat adminul </a> </h1>

@@ -1,0 +1,25 @@
+@import "../shared_files/reset_default.css";
+@import "../shared_files/header.css";
+@import "../shared_files/footer.css";
+@import "../shared_files/products_display.css";
+
+.product_title {
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(170, 170, 170, 0.75);
+    color: rgb(115, 146, 194);
+    transition: 0.3s all ease;
+}
+
+.product_title:hover {
+    cursor: pointer;
+    color: rgb(137, 173, 228);
+    text-shadow: 1px 1px 0px rgba(170, 170, 170, 0.75);
+    width: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+    .product_title {
+        font-size: 40px;
+        width: 200px;
+    }
+}

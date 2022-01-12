@@ -1,0 +1,53 @@
+@import "../shared_files/reset_default.css";
+@import "../shared_files/header.css";
+@import "../shared_files/footer.css";
+@import "../shared_files/forms.css";
+
+.form-section {
+    width: 1300px;
+    height: 700px;
+}
+
+.form {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    width: 1300px;
+    height: 300px;
+}
+
+.form-section-1, .form-section-2 {
+    height: 400px;
+}
+
+.titles {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        width: 1210px;
+    }
+
+    .titles {
+        margin-bottom: 400px;
+    }
+
+    .form-section {
+        width: 1200px;
+        height: 2000px;
+    }
+
+    .form-section-1 {
+        margin-bottom: 200px;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .buttons {
+        margin-top: 550px;
+    }
+}

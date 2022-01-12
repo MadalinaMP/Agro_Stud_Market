@@ -1,0 +1,1 @@
+<a href="../admin/admin_log_out.php"><img style="position: fixed; bottom: 0; right: 0; height: 30px; margin: 10px;" src="../icons/log-out.png" title="Deconectare"/></a>

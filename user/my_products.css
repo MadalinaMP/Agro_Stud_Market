@@ -1,0 +1,110 @@
+@import "../shared_files/reset_default.css";
+@import "../shared_files/header.css";
+@import "../shared_files/footer.css";
+@import "../shared_files/owned_products.css";
+
+.label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+
+.my_product {
+    border: 2px solid #DFC7AE;
+    box-shadow: 0px 0px 5px 0px rgba(170, 170, 170, 0.75);
+    background-color: #f8ede3a9;
+    margin: 30px;
+
+    transition: 0.3s all ease;
+}
+
+.my_product:hover {
+    cursor: pointer;
+    background-color: #f8ede379;
+    transform: scale(1.03);
+}
+
+.my_product form {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my_product form div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.list_item {
+    height: 55px;
+}
+
+.action_icon, .add {
+    height: 45px;
+
+    transition: 0.3s all ease;
+}
+
+.action_icon:hover, .add:hover {
+    transform: scale(1.1);
+}
+
+.my_product form div:first-child img:nth-child(2) {
+    margin: 0 10px 0 10px;
+    width: 100px;
+    height: 150px;
+}
+
+.my_product form div:nth-child(2) {
+    margin: 0 10px 0 10px;
+    text-align: right;
+    line-height: 45px;
+}
+
+.my_product form div:nth-child(2) a {
+    text-decoration: none;
+    color: rgb(115, 146, 194);
+    font-size: 24px;
+
+    transition: 0.3s all ease;
+}
+
+.my_product form div:nth-child(2) a:hover {
+    text-decoration: underline;
+    color: rgb(137, 173, 228);
+    text-shadow: 1px 1px 0px rgba(170, 170, 170, 0.75);
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        width: 1210px;
+    }
+
+    .label {
+        font-size: 40px;
+    }
+
+    .add {
+        height: 100px;
+    }
+
+    .my_product form div:first-child img:nth-child(2) {
+        width: 200px;
+        height: 300px;
+    }
+    
+    .my_product form div:nth-child(2) a {
+        font-size: 50px;
+    }
+
+    .action_icon {
+        height: 100px;
+    }
+
+    .list_item {
+        height: 100px;
+    }
+}

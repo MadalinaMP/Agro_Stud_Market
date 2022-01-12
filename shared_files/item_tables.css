@@ -1,0 +1,58 @@
+@import "reset_default.css";
+@import "admin_header.css";
+
+body {
+    background-color: rgba(220, 220, 220, 0.301);
+}
+
+.gestionate {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+table {
+    width: 100%;
+    padding: 0 50px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+table tr th {
+    padding: 10px 10px;
+    font-size: 18px;
+    border-bottom: 2px solid rgb(128, 128, 128);
+    background-color: rgb(220, 220, 220);
+}
+
+td {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.671);
+    padding: 10px 10px;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+
+tr {
+    transition: 0.3s all ease;
+}
+
+tr:hover {
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.144);
+}
+
+img {
+    height: 30px;
+}
+
+.add_item {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+    transition: 0.3s ease;
+}
+
+.add_item:hover {
+    color: rgb(255, 0, 0);
+}
